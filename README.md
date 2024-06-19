@@ -30,13 +30,8 @@ This project aims to detect American Sign Language (ASL) letters using computer 
     cd ASL-Sign-Language-Detector
     ```
 <br>
-2. Install dependencies:
 
-    ```
-    pip install -r requirements.txt
-    ```
-<br>
-3. Download the ASL Alphabet dataset:
+2. Download the ASL Alphabet dataset:
 
   - Download the dataset from [Kaggle ASL Alphabet Dataset](https://www.kaggle.com/grassknoted/asl-alphabet)
   - Extract the dataset files into a directory named ```Data```.
