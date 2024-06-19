@@ -23,7 +23,6 @@ This project aims to detect American Sign Language (ASL) letters using computer 
 - **matplotlib.pyplot as plt**: Used for visualizing data and results.
 
 ## Installation
-
 1. Clone the repository:
 
     ```
@@ -41,5 +40,12 @@ This project aims to detect American Sign Language (ASL) letters using computer 
 
   - Download the dataset from [Kaggle ASL Alphabet Dataset](https://www.kaggle.com/grassknoted/asl-alphabet)
   - Extract the dataset files into a directory named ```Data```.
+
+
+## Files Included:
+- ```create_datasetimage.py```: To create and add images of ASL signs to the ```Data``` directory
+- ```dataset_process```: To process the dataset and save it.
+- ```classifier.py```:To train the model on processed datset to detect the ASL letters and saving it.
+- ```testing_dataset```:Testing the model using a webcam.
 
  
