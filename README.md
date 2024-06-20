@@ -21,6 +21,8 @@ This project aims to detect American Sign Language (ASL) letters using computer 
 - **cv2 (OpenCV)**: For computer vision tasks, such as image and video processing.
 - **os**: Allows interaction with the operating system, used for file and directory operations.
 - **matplotlib.pyplot as plt**: Used for visualizing data and results.
+## OUTPUT
+![IMG_2895](https://github.com/Niharika-Varshney/Sign_language_Detector-Speech_Covertor/assets/118551235/ed501e48-31d8-440c-8cd8-9f5cfad4d416)
 
 ## Installation
 1. Clone the repository:
