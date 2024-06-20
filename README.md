@@ -23,6 +23,9 @@ This project aims to detect American Sign Language (ASL) letters using computer 
 - **matplotlib.pyplot as plt**: Used for visualizing data and results.
 ## OUTPUT
 ![IMG_2895](https://github.com/Niharika-Varshney/Sign_language_Detector-Speech_Covertor/assets/118551235/ed501e48-31d8-440c-8cd8-9f5cfad4d416)
+![IMG_2901](https://github.com/Niharika-Varshney/Sign_language_Detector-Speech_Covertor/assets/118551235/b6657c3e-5600-4080-86a1-2931ffd4e026)
+![IMG_2894](https://github.com/Niharika-Varshney/Sign_language_Detector-Speech_Covertor/assets/118551235/79d1a44b-942b-4dbc-8fae-1857518b22d0)
+![IMG_2896](https://github.com/Niharika-Varshney/Sign_language_Detector-Speech_Covertor/assets/118551235/40e2f822-4ce5-4204-b4e0-a90fd9ca3f48)
 
 ## Installation
 1. Clone the repository:
