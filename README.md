@@ -1,4 +1,4 @@
-# ASL Sign Language Detector and Speech Convertor
+# ASL Sign Language Detector and Speech Converter
 
 ## Overview
 This project aims to detect American Sign Language (ASL) letters using computer vision techniques and machine learning. The detector is capable of converting ASL signs into both spoken language and text format.
