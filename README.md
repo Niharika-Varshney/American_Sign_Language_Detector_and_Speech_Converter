@@ -44,7 +44,7 @@ This project aims to detect American Sign Language (ASL) letters using computer 
 
 
 ## Files Included:
-- ```create_datasetimage.py```: To create and add images of ASL signs to the ```Data``` directory
+- ```create_datasetimage.py```: To create and add images of ASL signs to the ```Data``` directory or you can save [Kaggle ASL Alphabet Dataset] in ```Data``` directory.
 - ```dataset_process```: To process the dataset and save it.
 - ```classifier.py```:To train the model on processed datset to detect the ASL letters and saving it.
 - ```testing_dataset```:Testing the model using a webcam.
