@@ -32,8 +32,8 @@ This project aims to detect American Sign Language (ASL) letters using computer 
 1. Clone the repository:
 
     ```
-    git clone https://github.com/Niharika-Varshney/Sign_language_Detector-Speech_Covertor
-    cd Sign_language_Detector-Speech_Covertor
+    git clone https://github.com/Niharika-Varshney/American_Sign_Language_Detector_and_Speech_Converter
+    cd American_Sign_Language_Detector_and_Speech_Converter
     ```
 <br>
 
