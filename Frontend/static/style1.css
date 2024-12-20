@@ -1,0 +1,111 @@
+/* General reset for padding, margin, and box-sizing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #e0f7f7; /* Light teal background */
+    color: #333;
+    font-family: 'Lucida Console', cursive;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* Cover entire viewport height */
+    padding: 20px;
+}
+
+/* Video feed styling */
+#videoElement {
+    width: 100%;
+    max-width: 700px;
+    border: 5px solid #4db6ac; /* Border with darker teal color */
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Predicted text container styling */
+#predictedTextContainer {
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Space between predicted text and video/buttons */
+    font-size: 1.8em; /* Adjust text size */
+    font-weight: bold;
+    color: #4db6ac; /* Teal color for the text */
+}
+
+/* Button container styling */
+.button-container {
+    display: flex; /* Arrange buttons in a single line */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 15px; /* Add spacing between buttons */
+    margin-top: 20px; /* Space between predicted text and buttons */
+}
+
+/* Button styling */
+.button {
+    background-color: #4db6ac; /* Teal-ish background for buttons */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #388e8e; /* Darker teal on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+.button2 {
+    background-color: #008CBA; /* Blue button */
+}
+
+.button2:hover {
+    background-color: #0073a8; /* Darker blue on hover */
+}
+
+.button3 {
+    background-color: #f44336; /* Red button */
+}
+
+.button3:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+.button4 {
+    background-color: #f0f0f0; /* Light gray button */
+    color: #333;
+}
+
+.button4:hover {
+    background-color: #e0e0e0; /* Darker gray on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .button-container {
+        flex-wrap: wrap; /* Stack buttons in smaller screens */
+        gap: 10px;
+    }
+
+    .button {
+        width: 100%; /* Buttons take up full width on smaller screens */
+    }
+
+    #videoElement {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,267 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Changed font */
+    color: #000000; /* Black text */
+    background-color: #f4f4f4;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #008080; /* Teal */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: turquoise; /* Coral */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #02a2a2;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 5px solid #1b7f7f;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .cta-button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background-color: #ff4c39;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #333333;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #008080;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff; /* Change background color here */
+    color: black; /* Add text color for consistency */
+}
+
+.how-it-works h2 {
+    font-size: 32px;
+    color: #008080;
+    margin-bottom: 20px;
+}
+
+.how-it-works ul {
+    list-style: none;
+    padding: 0;
+}
+
+.how-it-works li {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Base button styles */
+/* Base button styles */
+button, .cta-button {
+    background-color: #006666; /* Dark Teal */
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect with light teal */
+button:hover, .cta-button:hover {
+    background-color: #00b3b3; /* Light Teal */
+}
+
+/* Hero Section button */
+.hero .cta-button {
+    background-color: #006666; /* Dark Teal */
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background-color: #00b3b3; /* Light Teal */
+}
+
+
+
+
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.features h2 {
+    font-size: 32px;
+    color: #008080;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card h3 {
+    font-size: 24px;
+    color: #008080;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Demo Section */
+.demo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.demo h2 {
+    font-size: 32px;
+    color: #008080;
+    margin-bottom: 20px;
+}
+
+.demo p {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+#asl-demo-container {
+    background-color: #e0e0e0;
+    width: fit-content;
+    height: 50px;
+    border: 2px dashed #008080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008080;
+    font-size: 24px;
+}
+
+/* Image Section */
+.image-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.demo-image {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Maximum width for the image */
+    margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #008080;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+footer .links a:hover {
+    color: #ff6f61; /* Coral */
+}

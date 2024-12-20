@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Detection</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">SignSpeak</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#features">Features</a>
+            <a href="#demo">Try It!</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h1>Welcome to the American Sign Language Converter</h1>
+        <p>Breaking barriers in communication, one gesture at a time</p>
+        <a href="#demo" class="cta-button">Try it Now</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About the Project</h2>
+        <p>This project aims to bridge the gap between speech-impaired and visually impaired individuals by using AI-powered technology to convert sign language gestures into text and speech.
+            It recognizes and translates sign language gestures into text in real-time and also converts them into speech. The system processes gestures one by one, joining them to form complete words or sentences, allowing for smooth communication.
+        </p>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <ul>
+            <li>Capture your sign language gesture using a webcam.</li>
+            <li>The model processes the gesture to detect and recognize the sign.</li>
+            <li>The recognized gesture is translated into text and speech.</li>
+        </ul>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-card">
+            <h3>Real-Time Translation</h3>
+            <p>Instant translation of gestures to text and speech in real-time.</p>
+        </div>
+        <div class="feature-card">
+            <h3>High Accuracy</h3>
+            <p>Achieving 90%+ accuracy using machine learning models.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Speech Integration</h3>
+            <p>Text is converted into speech for accessibility.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Easy-to-Use Interface</h3>
+            <p>Simple and intuitive interface designed for all user levels.</p>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <!-- <section id="demo" class="demo">
+        <h2>Try the Demo</h2>
+        <p>Click below to test the Sign Language Converter in action:</p>
+        <div id="asl-demo-container">
+            Empty demo area -->
+        <!-- </div>
+        <button class="cta-button" onclick="window.location.href='/asl'">Start ASL Recognition</button>
+    </section> -->
+    <!-- Demo Section -->
+<section id="demo" class="demo">
+    <h2>Try the American Sign Language Converter</h2>
+    <p>Click below to test the Sign Language Converter in action:</p>
+    <div class="demo-content">
+        <button class="cta-button" onclick="window.location.href='/asl'">Start ASL Recognition</button>
+        <div id="asl-demo-container">
+            <!-- Empty demo area -->
+        </div>
+    </div>
+
+</section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 SignLanguageConverter | All Rights Reserved</p>
+
+    </footer>
+
+</body>
+</html>
